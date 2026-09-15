@@ -1,0 +1,8 @@
+CREATE TABLE students (
+    first_name TEXT,
+    last_name TEXT,
+    age INTEGER
+);
+
+INSERT INTO students (first_name, last_name, age) VALUES ("John", "Doe", 23);
+SELECT * FROM students;
